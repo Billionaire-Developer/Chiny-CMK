@@ -1,0 +1,41 @@
+Cleanex website — source images (Unsplash, free to use)
+=========================================================
+
+I couldn't download these directly into a folder for you — my sandbox's
+network settings only allow a fixed list of developer/package domains
+(npm, pypi, github, etc.), not general image CDNs like Unsplash. Two ways
+to get real files:
+
+1) Fastest: right-click each link below in your browser -> "Save image as..."
+2) Or: enable images.unsplash.com in your network/tool settings and ask me
+   to fetch them again.
+
+Hero (sharp, well-lit, static shot — woman in kitchen):
+https://images.unsplash.com/photo-1647381518264-97ff1835026f?auto=format&fit=crop&w=2000&q=95&fm=jpg
+
+Home Cleaning card / About section / Gallery (cozy living room):
+https://images.unsplash.com/photo-1757416654883-c73c67b3382b?auto=format&fit=crop&w=1200&q=80
+
+Office Cleaning card / Gallery (modern office):
+https://images.unsplash.com/photo-1746021535489-00edc5efb203?auto=format&fit=crop&w=1200&q=80
+
+End of Tenancy card / Gallery (bright bedroom):
+https://images.unsplash.com/photo-1741559935512-3b018321e35f?auto=format&fit=crop&w=1200&q=80
+
+Deep Cleaning card / Gallery (cleaning supplies):
+https://images.unsplash.com/photo-1563453392212-326f5e854473?auto=format&fit=crop&w=1200&q=80
+
+Gallery — Kitchen Deep Clean:
+https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1200&q=80
+
+Gallery — Bathroom Refresh:
+https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1200&q=80
+
+Gallery — Detail Finishing (faucet close-up):
+https://images.unsplash.com/photo-1567767326925-e2047bf469d0?auto=format&fit=crop&w=1200&q=80
+
+NOTE ON THE TEAM SECTION:
+The "Meet the Team" section intentionally uses initials in colored circles
+instead of stock photos. Using real stock photography with invented names
+would misrepresent who actually works for the business to site visitors —
+swap in real photos and names once the roster is finalized, not stock images.
