@@ -97,7 +97,7 @@ header{position:sticky;top:0;z-index:50;background:var(--white);border-bottom:1p
 .hero-cover-content .accent-underline{width:46px;height:3px;background:var(--aqua);margin:14px 0;}
 .hero-cover-content h1{font-size:42px;font-weight:700;line-height:1.14;color:#0F2430;text-shadow:0 1px 14px rgba(255,255,255,.35);}
 .hero-cover-content h1 em{font-style:normal;color:var(--teal);}
-.hero-cover-content .lead{margin-top:16px;font-size:16px;color:#33424D;max-width:40ch;text-shadow:0 1px 10px rgba(255,255,255,.4);}
+.hero-cover-content .lead{margin-top:16px;font-size:16px;color:#000000;max-width:40ch;text-shadow:0 1px 10px rgba(255,255,255,.4);}
 .hero-cover-content .cta-row{margin-top:26px;display:flex;gap:14px;flex-wrap:wrap;}
 .hero-trust-row{
   position:absolute;left:0;right:0;bottom:20px;z-index:3;
