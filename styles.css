@@ -337,6 +337,56 @@ footer{background:var(--teal-dark);color:#BFEAF0;padding:56px 0 24px;}
 .fab:hover{transform:scale(1.06);}
 .fab svg{width:26px;height:26px;}
 
+
+/* ===== INCLUDED SECTIONS ===== */
+/* ===== OUR PROCESS ===== */
+.process{background:var(--teal-dark);}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);position:relative;}
+.step{position:relative;padding-right:24px;}
+.step:not(:last-child)::after{content:"";position:absolute;top:19px;right:0;width:24px;height:1px;background:rgba(255,255,255,.25);}
+.step .idx{
+  font-family:'Poppins',sans-serif;font-weight:700;font-size:15px;width:38px;height:38px;border-radius:50%;
+  border:1.5px solid var(--sky);display:flex;align-items:center;justify-content:center;color:var(--sky);margin-bottom:18px;
+}
+.step h4{font-size:17px;color:#fff;font-weight:600;}
+.step p{margin-top:8px;font-size:14.5px;color:#ADE3EC;}
+
+/* ===== OUR VALUES ===== */
+.values-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:24px;}
+.value-card{background:var(--paper);border:1px solid var(--gray);border-radius:10px;padding:28px 24px;}
+.value-icon{width:44px;height:44px;border-radius:10px;background:var(--teal);display:flex;align-items:center;justify-content:center;margin-bottom:16px;}
+.value-icon svg{width:20px;height:20px;}
+.value-card h4{font-size:16.5px;color:var(--teal-dark);}
+.value-card p{margin-top:8px;font-size:14px;color:var(--ink-soft);}
+
+/* ===== WHY CHOOSE CLEANEX (comparison) ===== */
+.compare-grid{display:grid;grid-template-columns:1fr 1fr;border:1px solid var(--gray);border-radius:10px;overflow:hidden;position:relative;z-index:1;}
+.compare-col{padding:36px 32px;}
+.compare-col.typical{background:var(--paper);}
+.compare-col.cleanex{background:var(--teal-dark);color:#fff;}
+.compare-col h3{margin-bottom:22px;font-size:19px;}
+.compare-col.typical h3{color:var(--ink-soft);}
+.compare-col.cleanex h3{color:#fff;}
+.compare-col ul{display:flex;flex-direction:column;gap:16px;}
+.compare-col li{display:flex;gap:10px;font-size:14.5px;line-height:1.4;}
+.compare-col.typical li{color:var(--ink-soft);}
+.compare-col.cleanex li{color:#E7F8FB;}
+.compare-col.typical li::before{content:"✕";color:#C0392B;font-weight:700;flex-shrink:0;}
+.compare-col.cleanex li::before{content:"✓";color:var(--sky);font-weight:700;flex-shrink:0;}
+
+/* Responsive: tablet */
+@media (max-width:960px){
+  .steps{grid-template-columns:1fr 1fr;row-gap:32px;}
+  .step:nth-child(2)::after{display:none;}
+  .values-grid{grid-template-columns:1fr 1fr;}
+  .compare-grid{grid-template-columns:1fr;}
+}
+/* Responsive: mobile */
+@media (max-width:560px){
+  .values-grid{grid-template-columns:1fr;}
+  .compare-col{padding:26px 22px;}
+}
+
 /* ===== RESPONSIVE ===== */
 @media (max-width:1024px){
   .hero-cover-content{max-width:480px;}
