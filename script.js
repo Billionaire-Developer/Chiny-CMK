@@ -75,7 +75,7 @@ const BUSINESS_WHATSAPP = '4407459523113';               // digits only: country
 function applyBusinessContact() {
   document.querySelectorAll('a[href^="tel:"]').forEach(a => {
     a.href = `tel:+${BUSINESS_WHATSAPP}`;
-    if (a.textContent.includes('(555)')) a.textContent = a.textContent.replace('(555) 123-4567', BUSINESS_PHONE_DISPLAY);
+    if (a.textContent.includes('(+44)')) a.textContent = a.textContent.replace('(+44) 07459-523113', BUSINESS_PHONE_DISPLAY);
   });
   document.querySelectorAll('a[href^="mailto:"]').forEach(a => {
     a.href = `mailto:${BUSINESS_EMAIL}`;
