@@ -74,6 +74,13 @@ header{position:sticky;top:0;z-index:50;background:var(--white);border-bottom:1p
 .menu-toggle{display:none;background:none;border:none;cursor:pointer;padding:6px;}
 .menu-toggle span{display:block;width:22px;height:2px;background:var(--teal-dark);margin:5px 0;}
 
+
+.logo-img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  display: block;
+}
 /* ===== HERO (full-cover, per client feedback: image must be fully visible) ===== */
 .hero-cover{position:relative;background:#fff;padding:0;}
 .hero-cover-media{position:relative;width:100%;aspect-ratio:16/10;overflow:hidden;}
@@ -103,7 +110,7 @@ header{position:sticky;top:0;z-index:50;background:var(--white);border-bottom:1p
 }
 .hero-cover-content .eyebrow-line{font-size:13px;font-weight:700;letter-spacing:.05em;color:#0B4F61;line-height:1.5;text-shadow:0 1px 10px rgba(255,255,255,.5);}
 .hero-cover-content .accent-underline{width:46px;height:3px;background:var(--aqua);margin:14px 0;}
-.hero-cover-content h1{font-size:42px;font-weight:800;line-height:1.24;color:black;text-shadow:0 1px 14px rgba(255,255,255,.35);}
+.hero-cover-content h1{font-size:52px;font-weight:800;line-height:1.24;color:black;text-shadow:0 1px 14px rgba(255,255,255,.35);}
 .hero-cover-content h1 em{font-style:normal;color:var(--teal);}
 .hero-cover-content .lead{margin-top:16px;font-size:18px;color:black;max-width:40ch;text-shadow:0 1px 10px rgba(255,255,255,.4);}
 .hero-cover-content .cta-row{margin-top:26px;display:flex;gap:14px;flex-wrap:wrap;}
