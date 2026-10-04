@@ -66,7 +66,7 @@ if (ratingBtns.length) {
 
 // ===== Business contact placeholders =====
 // Replace these three lines with real details before going live.
-const BUSINESS_EMAIL = 'hello@cleanex.com';
+const BUSINESS_EMAIL = 'chinycmkservices@gmail.com';
 const BUSINESS_PHONE_DISPLAY = '(+44) 07459-523113';      // shown to visitors
 const BUSINESS_WHATSAPP = '4407459523113';               // digits only: country code + number, no + or spaces
 
